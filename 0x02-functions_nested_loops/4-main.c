@@ -11,6 +11,8 @@ int main(void)
 
 	r = _isalpha('H');
 	_putchar(r + '0');
+	r = _isalpha('o');
+	_putchar(r + '0');
 	r = _isalpha(108);
 	_putchar(r + '0');
 	r = _isalpha(';');
