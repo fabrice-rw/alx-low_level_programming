@@ -11,7 +11,7 @@ char *cap_string(char *s)
 
 	while (s[i])
 	{
-		if (i == 0 &&(s[i] >= 'a' && s[i] <= 'z'))
+		if (i == 0 && (s[i] >= 'a' && s[i] <= 'z'))
 			s[i] -= 32;
 
 		if (check_separators(s[i]) && (s[i + 1] >= 'a' && s[i + 1] <= 'z'))
