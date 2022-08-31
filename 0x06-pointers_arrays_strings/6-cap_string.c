@@ -31,7 +31,8 @@ char *cap_string(char *s)
 int check_separators(char c)
 {
 	int i = 0;
-	char separators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}' };
+	char separators[13] = { ' ', '\t', '\n', ',', ';', '.', '!', '?',
+		'"', '(', ')', '{', '}' };
 	for (; i < 13; i++)
 	{
 		if (c == separators[i])
